@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Left card */
+
+.card {
+    width: 733px;
+    height: 515px;
+    background-color: #FFFFFF;
+    box-shadow: 10px 20px 69px 5px rgba(63, 50, 238, 0.11);
+    display: flex;
+    margin: 50px auto;
+    border-radius: 40px;
+}
+
+.card .result {
+    width: 370px;
+    height: 515px;
+    background: linear-gradient(180deg, #6743FF 0%, #573DF8 22.92%, #4233F0 45.31%, #3E32ED 75.52%, #312CEA 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.card .result h1 {
+    font-size: 23px;
+    font-weight: 500;
+    color: #DDD0FF;
+    text-transform: capitalize;
+    margin: 40px 0 32px 0;
+    cursor: pointer;
+}
+
+.card .circle {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, #4C22C9 0%, #4628D6 24.48%, #442DE0 56.25%, #4531E8 79.69%, #4734EE 100%);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 32px 0;
+    cursor: pointer;
+}
+
+.card .result .circle h2 {
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: 'Font Awesome 6 Free';
+    margin: 0 0 10px 0;
+}
+
+.card .result .circle p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #DDD0FF;
+}
+
+.card .result h3 {
+    font-size: 31px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin: 0 0 18px 0;
+    cursor: pointer;
+}
+
+.card .result p {
+    font-size: 17px;
+    font-weight: 500;
+    color: #DDD0FF;
+    text-align: center;
+    margin: 0 60px;
+    cursor: pointer;
+}
+
+/* Right card */
+
+.card .summary {
+    width: 363px;
+    height: 515px;
+    border-radius: 40px;
+}
+
+.card .summary h1 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #29344A;
+    text-transform: capitalize;
+    margin: 39px 0 31px 43px;
+    cursor: pointer;
+}
+
+.card .summary div {
+    width: 288px;
+    height: 56px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 17px 43px;
+    text-transform: capitalize;
+    padding: 0 17px;
+    cursor: pointer;
+}
+
+.card .summary .icon {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 0;
+    height: 0;
+    border-radius: 10px;
+}
+
+.card .summary .icon h4 {
+    margin-left: 10px;
+}
+
+.card .summary .reaction {
+    background-color: #FFF6F5;
+    color: #E87175;
+}
+
+.card .summary .memory {
+    background-color: #FFFBF2;
+    color: #E6B346;
+}
+
+.card .summary .verbal {
+    background-color: #F2FBFA;
+    color: #56BCA4;
+}
+
+.card .summary .visual {
+    background-color: #F3F3FD;
+    color: #20299E;
+}
+
+.card .summary h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #29344A;
+}
+
+.card .summary h5 span {
+    color: #9A949E;
+}
+
+.card .summary a button {
+    width: 288px;
+    height: 56px;
+    background-color: #303B59;
+    color: #FFFFFF;
+    border-radius: 28px;
+    border: none;
+    cursor: pointer;
+    margin: 25px 0 0 43px;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+}
